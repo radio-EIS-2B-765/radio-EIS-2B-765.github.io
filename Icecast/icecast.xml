@@ -1,0 +1,15 @@
+<icecast>
+    <limits>
+        <clients-multiplier>10</clients-multiplier>
+    </limits>
+
+    <authentication>
+        <admin-user>admin</admin-user>
+        <admin-password>adminpassword</admin-password>
+    </authentication>
+
+    <mount>
+        <mount-name>/live</mount-name>
+        <password>sourcepassword</password>
+    </mount>
+</icecast>
